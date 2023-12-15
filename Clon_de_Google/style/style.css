@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img_perfil {
+    height:30px; /*alto*/
+    width: 30px; /*ancho*/
+}
+
+/*
+.caja_1 {
+    display: flex;
+justify-content: flex-end;
+}
+*/
+
+/*
+.caja_2 {
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;  Ajusta el valor según sea necesario para establecer el espacio entre las cajas 
+    padding: 10px;
+  }
+*/
+
+
+.caja_1 {
+display: flex;
+justify-content: flex-end;
+}
+
+.caja_2 {
+display: flex;
+justify-content: space-evenly;
+gap: 25px;
+padding-top: 10px;
+padding-right: 15px;
+align-items: center;
+
+}
+
+.img_puntos {
+    display: flex;
+    align-items: center;
+  }
+
+  .doodle_google {
+    height: 200px;
+    width: 500px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
