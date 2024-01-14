@@ -1,0 +1,29 @@
+
+
+
+.head_er{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img_log_sena{
+width: 150px;
+}
+
+.img_log_microsoft {
+width: 220px;
+padding-top: 30px;
+}
+
+.linea_verde {
+    background-color: #39a900;
+    height: 19px;
+}
+
+
+.img_fondo{
+    max-width: 100%;
+    max-width: 100%;
+    clip-path: inset(0 0 15% 0);
+}
