@@ -1,4 +1,7 @@
-
+* {
+    margin: 0;
+    border: 0;
+}
 
 
 .head_er{
@@ -21,9 +24,48 @@ padding-top: 30px;
     height: 19px;
 }
 
+.contenedor_img_fondo{
+    max-width: 100%;
+    max-height: 75vh;
+    overflow: hidden;
+    position: relative;
+}
 
 .img_fondo{
     max-width: 100%;
-    max-width: 100%;
-    clip-path: inset(0 0 15% 0);
+    max-height: 100%;
+}
+.linea_verde_footer {
+    background-color: #39a900;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img_territorium {
+    height: 2.5vh;
+    margin: 0px 17px ;
+}
+
+.caja_pie_1{
+    margin: 0px 17px ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.caja_pie_2 {
+    margin: 0px 17px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.caja_prin_ingreso {
+    position: absolute; /* La caja tiene posición absoluta con respecto al contenedor */
+    top: 300px; /* Ajusta la posición desde la parte superior según tus necesidades */
+    left: 900px;
+    background-color: white;
 }
