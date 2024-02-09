@@ -136,4 +136,52 @@ gap: 30px;
 
 }
 
+.caj_mit_3_3{
+    height: 9px;
+    width: 9px;
+}
 
+.caj_mit_4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.caj_mit_5 {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.caj_mit_5_1{
+
+}
+
+.caj_mit_5_2 {
+border: solid 1px black;
+padding: 8px;
+padding-right: 29px;
+}
+
+.caj_mit_6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+.caj_mit_7{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.caj_mit_7_1{
+text-align: center;
+border: solid 1px black;
+outline: none;
+padding: 8px;
+padding-right: 29px;
+}
