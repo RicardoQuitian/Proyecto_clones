@@ -1,6 +1,7 @@
 * {
     margin: 0;
     border: 0;
+    
 }
 
 
@@ -11,12 +12,13 @@
 }
 
 .img_log_sena{
-width: 150px;
+width: 146px;
 }
 
 .img_log_microsoft {
 width: 220px;
 padding-top: 30px;
+margin-left: 350px;
 }
 
 .linea_verde {
@@ -32,12 +34,12 @@ padding-top: 30px;
 }
 
 .img_fondo{
-    max-width: 100%;
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .linea_verde_footer {
     background-color: #39a900;
-    height: 6vh;
+    height: 6.4vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,28 +75,31 @@ padding-top: 30px;
 
 .caja_prin_ingreso {
     position: absolute;
-    top:40%;
-    left: 45%;
+    top:35%;
+    left: 43%;
     background-color: white;
     height: 43%;
     width: 13.5%;
+    border-radius: 10px;
 }
 
 
 .caj_mit_1{
     display: flex;
     flex-direction: row;
-    background-color: green;
+    background-color: #669900;
     height: 45px;
     justify-content: center;
-    gap: 3px;
+    gap: 7px;
+
 }
 
 .caj_mit_1_1{
 color: white;
-font-size: 23px;
+font-size: 20px;
 display: flex;
 align-items: center;
+font-family: 'Inter', sans-serif;
 
 }
 
@@ -102,9 +107,12 @@ align-items: center;
 color: white;
 display: flex;
 align-items: center;
-padding-top: 7px;
+padding-top: 5px;
 font-size: 12px;
+font-family: 'Inter', sans-serif;
+
 }
+
 
 .caj_mit_2{
 display: flex;
@@ -112,7 +120,12 @@ justify-content: center;
 }
 
 .caj_mit_2_1{
-padding: 10px;
+padding-top: 6px;
+padding-bottom: 16px;
+font-family:  sans-serif;
+font-size: 13px;
+color: rgb(31, 30, 30);
+
 }
 
 .caj_mit_3{
@@ -125,20 +138,30 @@ gap: 30px;
 
 .caj_mit_3_1{
     display: flex;
-    flex-direction: row;
-    border: solid 1px black;
-    gap: 35px;
-    padding: 7px;
+   justify-content: center;
+   align-items: center;
+    border: solid 1px #c5c5c5;
+    border-radius: 3px;
+    text-align: center;
     padding-right: 20px;
-
+    height: 30px;
+    width: 186px;
+    gap: 30px;
+    padding-top: 7px;
+    padding-left: 9px;
 }
 .caj_mit_3_2{
-
+font-family: sans-serif;
+font-size: 12px;
+color: rgb(70, 68, 68);
+height: 20px;
+width: 133px;
 }
 
 .caj_mit_3_3{
-    height: 9px;
-    width: 9px;
+    height: 6px;
+    width: 10px;
+    padding-left:  13px;
 }
 
 .caj_mit_4{
@@ -147,22 +170,30 @@ gap: 30px;
     align-items: center;
     padding: 10px;
 }
+.caj_mit_4_1{
+font-family:  sans-serif;
+font-size: 13px;
+color: rgb(31, 30, 30);
+margin-right: 46px;
+}
 
 .caj_mit_5 {
 display: flex;
 justify-content: center;
 align-items: center;
-
-}
-
-.caj_mit_5_1{
-
 }
 
 .caj_mit_5_2 {
-border: solid 1px black;
+border: solid 1px #c5c5c5;
+border-radius: 3px;
 padding: 8px;
 padding-right: 29px;
+height: 20px;
+width: 175px;
+font-size: 12.5px;
+text-align: center;
+padding-left: 14px;
+outline: none;
 }
 
 .caj_mit_6 {
@@ -170,6 +201,14 @@ padding-right: 29px;
     justify-content: center;
     align-items: center;
     padding: 8px;
+    padding-top: 20px;
+}
+
+.caj_mit_6 {
+    font-family:  sans-serif;
+    font-size: 13px;
+    color: rgb(31, 30, 30);
+    padding-right: 120px;
 }
 
 .caj_mit_7{
@@ -179,9 +218,62 @@ align-items: center;
 }
 
 .caj_mit_7_1{
-text-align: center;
-border: solid 1px black;
+border: solid 1px #c5c5c5;
+border-radius: 3px;
 outline: none;
 padding: 8px;
 padding-right: 29px;
+height: 18px;
+width: 175px;
+padding-left: 16px;
+
+}
+
+.caj_mit_8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+.caj_mit_8_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom:  px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #39a900;
+    font-weight: bold;
+    gap: 3px;
+}
+.caj_mit_8_1_2{
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #39a900;
+    font-weight: bold;
+}
+
+.caj_mit_boton{
+    height: 40px;
+    width: 190px;
+    background-color: #39a900;
+    margin-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    width: 210px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.img_herramienta{
+    position: absolute;
+    top: 500px;
+    right: 1px;
+    border-radius: 2px;
+    cursor: pointer;
 }
