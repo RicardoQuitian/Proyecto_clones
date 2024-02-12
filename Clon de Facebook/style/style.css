@@ -1,0 +1,17 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+
+.caja_gris{
+    background-color: #f0f2f5;
+    height: 80vh;
+    width: 100%;
+}
+
+.caja_blanca{
+    background-color: #ffffff;
+    height: 20vh;
+    width: 100% ;
+}
