@@ -30,7 +30,7 @@ img{
     width: 30%;
 }
 
-.caja_2{
+.caja_2_1{
     display: flex;
     flex-direction: column;
     background-color:white;
@@ -38,13 +38,11 @@ img{
     align-items: center;
     height: 346px;
     width: 395px;
-   
 }
 
 .caja_2_1{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column; 
 }
 
 .caja_gris{
@@ -60,9 +58,35 @@ img{
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0px;
-    
 }
 
+.input_1{
+    height:45px;
+    width: 350px;
+    border: solid 1px #dddfe2;
+    border-radius: 5px;
+    font-size: 17px;
+    padding-left: 17px;
+    margin-top: 13px;
+    outline-color: #0866ff;
+}
+
+.input_1::placeholder{
+    color: #90949c;
+    outline-width: 1000px;
+}
+
+
+.button_1{
+    height: 45px;
+    width: 350px;
+    margin-top: 13px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0866ff;
+    font-size: 20px ;
+    cursor: pointer;
+}
 
 
 
