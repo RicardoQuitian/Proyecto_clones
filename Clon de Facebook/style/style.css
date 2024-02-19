@@ -14,6 +14,9 @@
     background-color: #ffffff;
     height: 20vh;
     width: 100% ;
+    display: flex;
+    justify-content: center;
+    
 }
 
 
@@ -23,12 +26,7 @@ img{
     padding-bottom: 20px;
 }
 
-.caja_1{
-    display: flex;
-    flex-direction: column;
-    height: 30%;
-    width: 30%;
-}
+
 
 .caja_2_1{
     display: flex;
@@ -57,11 +55,12 @@ img{
 }
 
 .caja_1_1{
-    font-size: 28px;
+    font-size: 25px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0px;
+    color: black;
 }
 
 .input_1{
@@ -144,27 +143,23 @@ img{
 .caja_2_4{
 font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;;
 font-size: 14px;
+color: black;
 }
 
 
 a{
 text-decoration: none;
-color:#90949c;
+color:#01050d;
 font-family: inherit;
 font-size: 14px;
 }
 
-.caja_blanca_1{
-    display: flex;
-    gap: 9px;
-    align-items: center;
-    justify-content: center;
-}
+
 
 .caja_blanca_4{
     margin-top: 20px;
     height: 16px;
-    width: 50%;
+    width: 53%;
 }
 
 .icon_mas{
@@ -180,6 +175,98 @@ font-size: 14px;
     padding-bottom:0;
 }
 
+.caja_blanca_2{
+    border-top: solid 1px #dddfe2;
+}
+
+.caja_blanca_1{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-bottom: 7px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #90949c;
+}
+.caja_blanca_1 > a  {
+    color: #90949c;
+    font-size: 11px;
+
+}
 
 
 
+.caja_blanca_3{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap:5px;
+    margin-top: 10px;
+    font-family:Arial, Helvetica, sans-serif;  
+}
+
+
+.caja_blanca_3 > a + a {
+margin-right: 13px;
+font-size: 11px;
+color: #90949c;
+}
+
+.registrar{
+    font-size: 11px;
+    margin-right: 13px;
+    color: #90949c;
+}
+
+.registrar_2 {
+    font-size: 11px;
+    margin-right:3px;
+    color: #90949c;
+}
+
+.caja_de_op_tri{
+    display: flex;
+}
+
+.meta_footer{
+   margin-top: 20px;
+   font-size: 12px;
+   color: #90949c;
+}
+
+
+@media screen and (max-width: 768px){
+.caja_gris{display: flex;
+flex-direction: column;}
+.caja_1{display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;}
+}
+
+@media screen and (max-width: 935px){
+    .caja_1{display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+    }
+
+.caja_adicional {
+    height: 450px;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja_1{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+}
+
+.img_1{
+    margin-top: 7%;
+}
